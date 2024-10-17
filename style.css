@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #333;
+    color: aliceblue;
+    line-height: 1.8;
+}
+
+#container{
+    /* margin: 40px auto; */
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 30px;
+    
+}
+
+.wrapper{
+    background: #fff;
+    padding: 20px 25px;
+    color: #333;
+
+}
+
+.wrapper h1{
+    text-align: center;
+}
+
+.wrapper .form-label{
+    margin-top: 10px;
+}
+
+.wrapper .form-label label, .form-label1 label, .form-labels label{
+    display: block;
+    color: #353434;
+    font-size: larger;
+}
+
+.wrapper .form-label input{
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;  
+}
+
+.wrapper .form-label1 input, .form-labels select{
+    display: inline;
+    width: 50%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 20px;  
+}
+
+.wrapper button {
+    display: inline;
+    width: 45%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #d44474;
+    color: #fff;
+    cursor: pointer;
+  }
+.wrapper button:hover {
+    background: #7a0129;
+   }
+
+a {
+    text-decoration: none;
+  }
+  .wrapper .bottom-text {
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  footer {
+   text-align: center;
+   margin-top: 10px;
+  }
+
+  footer a {
+    color: #09e238;
+  }

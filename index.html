@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="description" content="This is my website description">
+  <meta name="keywords" content="web development, web design">
+  <!-- Do not index page -->
+  <meta name="robots" content="NOINDEX, NOFOLLOW">
+  <title>REGISTRATION FORM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div class="wrapper">
+      <h1>Sign Up</h1>
+      <form >
+                
+        <div class="form-label">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter Full Name">
+        </div>
+
+        <div class="form-label">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Create a strong Password"/>
+          </div>
+
+          <div class="form-label">
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="pasword2" id="password2" placeholder="Confirm Password"/>
+          </div>
+        
+        <div class="form-labels">
+          <label for="sex">Sex</label>
+          <select name="sex" id="sex">
+            <option value="male">Male</option>
+            <option value="female" selected>Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+       
+        <div class="form-label1">
+          <label for="bithdate">Birthdate</label>
+          <input type="date" name="birthdate" id="birthdate">
+        </div>
+       
+        <button type="submit" value="Submit"> Sign Up </button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset">Reset</button>
+
+        <p class="bottom-text">
+            By clicking the Sign Up button, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+      </form>
+    </div>
+
+    <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+</div>
+    
+</body>
+</html>
